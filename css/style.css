@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+.header .fab{
+    color: #a7a2af;
+} 
+
+.header .nav-item{
+    margin: 0 20px 0 20px;
+}
+
+.header .nav-item .li{
+    font-style: bold;
+}
+  
+/*--------------------------------------------------------------
+  # Hero Section
+--------------------------------------------------------------*/
+.hero-bg{
+  background: url(../images/1.PNG);
+  background-size: 100%;
+  position: center;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+  position: relative;
+}
+  
+@media (min-width: 1024px) {
+  .hero {
+    background-attachment: fixed;
+  }
+}
+  
+.hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size : cover;
+}
+  
+.hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+  
+.hero h1 {
+  margin: 30px 0 10px 0;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+  
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+  
+.hero h3 {
+  margin: 30px 0 20px 0;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+}
+  
+@media (max-width: 768px) {
+  .hero h3 {
+    font-size: 25px;
+  }
+}
+  
+.hero .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+}
+  
+.hero .btn-get-started:hover {
+  background: #a7a2af ;
+  border: 2px solid #a7a2af;
+}
+  
+.hero .section1-container {
+  width : 300px;
+  height : 300px;
+  margin-top : 50px;
+  margin-left : 200px;
+  margin-right : 200px;
+}
+  
+.hero h2 {
+  margin: 30px 0 10px 0;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+}
+  
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 25px;
+  }
+}
+
+/*About Me*/
+.about-me{
+  background-color: #a7a2af;
+}
+.img-profil{
+  width: 50%;
+  margin: 50px 50px 50px 30px;
+}
+
+.ket {
+  margin: 40px 30px 50px -100px;
+}
+
+.ket h1{
+  font-size: 40pt;
+}
+
+.ket p{
+  margin-top: 30px;
+  text-align: justify;
+  font-size: 12pt;
+}
+
+@media (max-width:768px){
+  .ket p{
+    font-size: 8pt;
+  }
+}
+
+@media (max-width:1000px){
+  .ket p{
+    font-size: 10pt;
+  }
+}
+
+.ket h2{
+  margin-top: 30px;
+}
+
+/*portfolio*/
+.portfolio{
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio h1{
+  font-size: 40pt;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.portfolio h3{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.portfolio .prototype h1{
+  font-size: 35pt;
+  margin-bottom: 30px ;
+}
+
+.portfolio .front-end h1{
+  font-size: 35pt;
+}
+
+.portfolio .back-end h1{
+  font-size: 35pt;
+}
+
+.portfolio .design{
+  background-color: #a7a2af;
+}
+
+.portfolio .design h3{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.portfolio .design h1{
+  font-size: 35pt;
+}
+
+/*contact*/
+.contact {
+	background-color : #FFFFFF;
+	padding:30dp;
+	margin-top : 30px;
+	margin-bottom : 30px;
+}
+
+.contact h1{
+  font-size: 40pt;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.contact a{
+  text-decoration: none;
+  color: black;
+}
